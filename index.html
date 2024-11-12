@@ -4,18 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="block">
-        
-    </div>
-    
-    <button onclick="addBlock()">Click</button>
+    <button id="b-content">CLICK</button>
+    <form id="form-of-new-book" style="display: none;">
+        <label for="athor">Athor Name</label>
+        <input type="text" name="athor" id="athor">
+        <label for="title">Title</label>
+        <input type="text" name="title" id="title">
+        <label for="pages">Num of Pages</label>
+        <input type="num" name="pages" id="pages">
+        <label for="read">Read</label> 
+        <input type="text" name="read" id="read">
+    </form>
 
-    <div id="block-input">
-
-    </div>
-    <button id="newBook" onclick="newBook()">New Book</button>
     <script src="javasCript.js"></script>
 </body>
 </html>

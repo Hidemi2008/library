@@ -1,0 +1,31 @@
+body{
+    padding: 0px;
+    margin:0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#b-content{
+    background-color: aqua;
+    width: 50%;
+    margin: 20px;
+    padding: 10px;
+}
+
+#form-of-new-book{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    background-color: aquamarine;
+    box-shadow: 1px 1px 1px;
+    margin: 10px;
+
+}
+
+input{
+    margin: 10px;
+}
