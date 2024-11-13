@@ -26,6 +26,46 @@ body{
 
 }
 
+#bnt-submit{
+    margin: 10px;
+    padding: 10px;
+    background-color: aqua;
+    width: 35%;
+}
+
 input{
     margin: 10px;
+}
+
+button{
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px;
+}
+
+#container{
+    align-self: flex-start;
+    display: flex;
+    justify-content: center;
+}
+
+#library{
+    background-color: white;
+    width: 80%;
+    margin: 20px;
+    padding: 10px;
+}
+
+.newBook{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+#removeBnt{
+    width: 50%;
+    background-color: aqua;
+
+
 }
